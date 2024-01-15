@@ -1,0 +1,86 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.card-wrapper {
+  flex-basis: percentage(1/3);
+  width: percentage(1/3);
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.card-container {
+  background: #fff;
+  margin: 0 0 20px;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(#000, 0.2);
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 2px 4px rgba(#000, 0.2), 0 4px 8px rgba(#000, 0.2);
+  }
+
+  &:active {
+    box-shadow: none;
+    transform-origin: left;
+    transform: scale(0.98);
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.card-title {
+  margin: 0 0 10px;
+  color: #444;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.card-author {
+  color: #666;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+}
+.card-status {
+  color: #777;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.card-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+

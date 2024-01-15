@@ -1,0 +1,11 @@
+Debug report for file: testdebug.html
+
+error at line 23: missing coma (,)
+
+error at line 429: missing double quotation mark (")
+
+error at line 438: missing value for the attribute "valueAsString"
+
+error at line 528: 'attribute' mispelled as 'attributes'
+
+error at line 541: missing variable inside cleanA[]
